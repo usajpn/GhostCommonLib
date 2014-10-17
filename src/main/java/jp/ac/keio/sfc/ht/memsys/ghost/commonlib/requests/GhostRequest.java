@@ -1,25 +1,18 @@
-package jp.ac.keio.sfc.ht.memsys.ghost.commonlib.requests;
+package old.lib.commonlib.requests;
 
-import jp.ac.keio.sfc.ht.memsys.ghost.commonlib.datatypes.GhostRequestTypes;
+import old.lib.commonlib.datatypes.GhostRequestTypes;
 
 /**
  * Created by aqram on 10/15/14.
  */
 public class GhostRequest {
 
-    public final String APPID;
-    public final GhostRequestTypes TYPE;
-    public final String PARAMS;
+    public final String TYPE;
+    public final Bundle PARAMS;
 
-    public GhostRequest(GhostRequestTypes type, String param, String appId){
-        APPID = appId;
+    public GhostRequest(String type, Bundle param){
         TYPE = type;
         PARAMS = param;
     }
 
-    public GhostRequest(String appId, GhostRequestTypes type){
-        APPID = appId;
-        TYPE = type;
-        PARAMS = "";
-    }
 }

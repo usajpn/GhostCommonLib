@@ -1,4 +1,4 @@
-package jp.ac.keio.sfc.ht.memsys.ghost.commonlib.data;
+package old.lib.commonlib.data;
 
 import java.io.Serializable;
 import java.util.HashMap;

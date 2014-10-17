@@ -1,4 +1,4 @@
-package jp.ac.keio.sfc.ht.memsys.ghost.commonlib.tasks;
+package old.lib.commonlib.tasks;
 
 import java.io.Serializable;
 import java.util.LinkedList;

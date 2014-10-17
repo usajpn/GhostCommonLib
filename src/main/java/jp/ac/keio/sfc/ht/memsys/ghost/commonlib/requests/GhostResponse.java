@@ -1,22 +1,19 @@
-package jp.ac.keio.sfc.ht.memsys.ghost.commonlib.requests;
+package old.lib.commonlib.requests;
 
-import jp.ac.keio.sfc.ht.memsys.ghost.commonlib.datatypes.GhostResponseTypes;
+import old.lib.commonlib.datatypes.GhostResponseTypes;
 
 /**
  * Created by aqram on 10/15/14.
  */
 public class GhostResponse {
 
-    public final String APPID;
+    public final String STATUS;
     public final String REQUESTID;
-    public final GhostResponseTypes STATUS;
-    public final String MESSAGE;
+    public final Bundle MESSAGE;
 
-    public GhostResponse(GhostResponseTypes type, String mes, String appId, String reqId){
-        STATUS = type;
-        MESSAGE = mes;
-        APPID = appId;
+    public GhostResponse(String status, String reqId, Bundle mes){
+        STATUS = status;
         REQUESTID = reqId;
+        MESSAGE = mes;
     }
-
 }
