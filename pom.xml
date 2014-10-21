@@ -9,13 +9,13 @@
     <version>0.2-SNAPSHOT</version>
 
     <properties>
-        <github.global.server>github-akito0107</github.global.server>
+           <internal.repo.directory>mvn-repo</internal.repo.directory>
     </properties>
     <distributionManagement>
         <repository>
             <id>internal.repo</id>
             <name>Temporary Staging Repository</name>
-            <url>file://${project.build.directory}/mvn-repo</url>
+            <url>file://${internal.repo.directory}</url>
         </repository>
     </distributionManagement>
 
