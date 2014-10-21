@@ -9,4 +9,12 @@
     <version>0.1-SNAPSHOT</version>
 
 
+    <dependencies>
+      <dependency>
+        <groupId>org.infinispan</groupId>
+        <artifactId>infinispan-core</artifactId>
+        <version>7.0.0.CR1</version>
+      </dependency>
+ 
+    </dependencies>
 </project>
