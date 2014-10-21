@@ -1,4 +1,4 @@
-package old.lib.commonlib.util;
+package jp.ac.keio.sfc.ht.memsys.ghost.commonlib.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

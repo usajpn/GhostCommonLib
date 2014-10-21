@@ -1,4 +1,4 @@
-package old.lib.commonlib.requests;
+package jp.ac.keio.sfc.ht.memsys.ghost.commonlib.requests;
 
 /**
  * Created by aqram on 10/17/14.

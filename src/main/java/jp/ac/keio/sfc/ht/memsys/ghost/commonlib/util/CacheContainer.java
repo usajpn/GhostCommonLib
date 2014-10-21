@@ -1,4 +1,4 @@
-package old.lib.commonlib.util;
+package jp.ac.keio.sfc.ht.memsys.ghost.commonlib.util;
 
 /**
  * Created by aqram on 10/2/14.

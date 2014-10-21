@@ -1,6 +1,7 @@
-package old.lib.commonlib.requests;
+package jp.ac.keio.sfc.ht.memsys.ghost.commonlib.requests;
 
-import old.lib.commonlib.datatypes.GhostResponseTypes;
+
+import jp.ac.keio.sfc.ht.memsys.ghost.commonlib.requests.Bundle;
 
 /**
  * Created by aqram on 10/15/14.

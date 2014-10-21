@@ -1,4 +1,4 @@
-package old.lib.commonlib.requests;
+package jp.ac.keio.sfc.ht.memsys.ghost.commonlib.requests;
 
 import java.util.HashMap;
 
