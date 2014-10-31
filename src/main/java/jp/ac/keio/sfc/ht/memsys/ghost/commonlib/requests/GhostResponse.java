@@ -3,10 +3,12 @@ package jp.ac.keio.sfc.ht.memsys.ghost.commonlib.requests;
 
 import jp.ac.keio.sfc.ht.memsys.ghost.commonlib.requests.Bundle;
 
+import java.io.Serializable;
+
 /**
  * Created by aqram on 10/15/14.
  */
-public class GhostResponse {
+public class GhostResponse implements Serializable{
 
     public final String STATUS;
     public final String REQUESTID;

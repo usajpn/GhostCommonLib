@@ -1,5 +1,6 @@
 package jp.ac.keio.sfc.ht.memsys.ghost.commonlib.requests;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
 /**
@@ -12,7 +13,7 @@ import java.util.HashMap;
  * を格納
  *
  */
-public class Bundle {
+public class Bundle implements Serializable{
 
 
     private HashMap<String, String> mMap;

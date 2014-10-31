@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * Created by aqram on 10/2/14.
  * TODO
  */
-public class OffloadableTaskPipeline implements Serializable{
+public class OffloadableTaskPipeline {
 
     private LinkedList<OffloadableTask> mPipeline;
     public final String ADDRESS;
