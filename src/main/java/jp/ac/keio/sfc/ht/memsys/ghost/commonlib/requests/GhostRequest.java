@@ -14,5 +14,4 @@ public class GhostRequest implements Serializable{
         TYPE = type;
         PARAMS = param;
     }
-
 }

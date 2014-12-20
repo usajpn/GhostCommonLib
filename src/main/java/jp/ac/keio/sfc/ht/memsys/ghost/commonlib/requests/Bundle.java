@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.HashMap;
 
 /**
- * Controll Channel内でやりとりされるデータ形式
+ * Control Channel内でやりとりされるデータ形式
  * Created by aqram on 10/15/14.
  *
  * APPID
